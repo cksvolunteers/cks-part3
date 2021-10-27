@@ -1,0 +1,58 @@
+.footer {
+	background-color: #033574;
+	&__ornaments {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__ornaments-main-img {
+		width: 170px;
+	}
+	&__ornaments-img {
+		width: 140px;
+		margin: 0;
+	}
+	&__ornaments-part1 {
+		width: 35%;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__ornaments-part2 {
+		width: 35%;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__menu {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 150px;
+		margin: 50px 0;
+		&__item-aboutus {order: 1;}
+		&__item-institute {order: 4;}
+		&__item-news {order: 2;}
+		&__item-material {order: 5;}
+		&__item-gallery {order: 3;	}
+		&__item {
+			color: #fff;
+			margin: 0;
+		}
+		&__link {
+			color: #95BAE7;
+			text-decoration: none;
+			font-size: 24px;
+		}
+		&__link:hover {
+			color: #fff;
+			transition: all .5s ;
+		}
+	}
+}
+.copywrite {
+	background-color: #336799;
+	color: #95BAE7;
+	&__txt {
+		font-size: 24px;
+		margin: 0;
+		text-transform: capitalize;
+		text-align: center;
+	}
+}

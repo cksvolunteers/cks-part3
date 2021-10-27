@@ -1,0 +1,32 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+
+@import 'scss/address';
+@import 'scss/partners';
+@import 'scss/footer';
+
+.container {
+	width: 1240px;
+	margin: auto;
+	padding: 25px;
+}
+// Устройства (меньше чем 1400px)
+// @media (max-width: 1399.98px) { ... }
+
+// // Устройства (меньше чем 1200px)
+// @media (max-width: 1199.98px) { ... }
+
+// // Устройства (меньше чем 992px)
+// @media (max-width: 991.98px) { ... }
+
+// // Устройства (меньше чем 768px)
+// @media (max-width: 767.98px) { ... }
+ 
+// Маленькие устройства (меньше чем 576px)
+// @media (max-width: 575.98px) { ... }
