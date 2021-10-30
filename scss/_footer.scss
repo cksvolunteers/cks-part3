@@ -21,16 +21,15 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	&__menus {
+		display: flex;
+		padding: 20px 0 0;
+	}
 	&__menu {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 150px;
-		margin: 50px 0;
-		&__item-aboutus {order: 1;}
-		&__item-institute {order: 4;}
-		&__item-news {order: 2;}
-		&__item-material {order: 5;}
-		&__item-gallery {order: 3;	}
+		width: 70%;
 		&__item {
 			color: #fff;
 			margin: 0;
@@ -43,6 +42,29 @@
 		&__link:hover {
 			color: #fff;
 			transition: all .5s ;
+		}
+	}
+	&__icons {
+		display: flex;
+		width: 20%;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__icons-descr {
+		width: 100%;
+		color: #95BAE7;
+		font-size: 24px;
+		font-weight: bold;
+		margin: 0;
+		padding: 0;
+	}
+	&__fab {
+		color: #95BAE7;
+		font-size: 30px;
+		transition: all 0.5s;
+		
+		&:hover {
+			color: #fff;
 		}
 	}
 }
